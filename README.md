@@ -262,7 +262,7 @@ footer strong { color:var(--gold); }
 <div class="about-box">
     <h2>About <span>AB Digital Solutions</span></h2>
     <p class="urdu">AB Digital Solutions ایک ڈیجیٹل سروس پلیٹ فارم ہے جہاں گرافک ڈیزائن، ای سروسز، آن لائن درخواستیں، داخلہ جات، جاب اپلیکیشنز، سرکاری اسکیمیں، ڈیجیٹل ڈاکیومنٹیشن اور ویڈیو ایڈیٹنگ جیسی مختلف خدمات فراہم کی جاتی ہیں۔</p>
-    <div class="ceo urdu">چیف ایگزیکٹو آفیسر: میہر ابوبکر بادشاہ</div>
+    <div class="ceo urdu">چیف ایگزیکٹو آفیسر: مہر ابوبکر بادشاہ</div>
 </div>
 </section>
 
