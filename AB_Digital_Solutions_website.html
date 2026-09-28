@@ -198,6 +198,11 @@ footer strong { color:var(--gold); }
     .title h2,.about h2 { font-size:31px; }
     .hero-sub { font-size:16px; }
 }
+
+/* AB STATS - original navy/gold theme */
+.stats-section{background:var(--soft);padding:65px 20px 75px}.stats-grid{max-width:1050px;margin:auto;display:grid;grid-template-columns:repeat(2,1fr);gap:28px}.stat-box{min-height:205px;background:#fff;border:3px solid var(--navy);border-radius:24px;box-shadow:8px 9px 0 var(--navy);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;transition:.25s}.stat-box:hover{transform:translateY(-5px);box-shadow:11px 13px 0 var(--navy)}.stat-number{font-family:Inter,Arial,sans-serif;font-size:64px;line-height:1;font-weight:900;color:var(--navy);direction:ltr}.stat-number span{color:var(--gold)}.stat-label{margin-top:15px;color:var(--navy);font-size:20px;font-weight:700}
+/* CM & PM schemes */
+.schemes-section{background:#fff}.scheme-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.scheme-card{background:linear-gradient(145deg,#fff,#f6f9fa);border:1px solid #e5ecef;border-top:4px solid var(--gold);border-radius:18px;padding:24px 19px;box-shadow:0 8px 25px rgba(6,59,76,.07);transition:.25s}.scheme-card:hover{transform:translateY(-6px);box-shadow:0 16px 35px rgba(6,59,76,.13)}.scheme-card .icon{width:52px;height:52px;border-radius:14px;background:#eaf1f3;display:flex;align-items:center;justify-content:center;font-size:27px;margin-bottom:13px}.scheme-card h3{color:var(--navy);margin-bottom:7px;font-size:18px}.scheme-card p{color:#68777c;font-size:15px}.scheme-note{max-width:850px;margin:28px auto 0;text-align:center;color:#68777c;font-size:14px}@media(max-width:950px){.scheme-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:650px){.stats-grid,.scheme-grid{grid-template-columns:1fr}.stat-box{min-height:180px}.stat-number{font-size:54px}}
 </style>
 </head>
 
@@ -212,6 +217,7 @@ footer strong { color:var(--gold); }
     <nav>
         <a href="#home">Home</a>
         <a href="#services">Services</a>
+        <a href="#schemes">Schemes</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
     </nav>
@@ -232,6 +238,8 @@ footer strong { color:var(--gold); }
 </div>
 </section>
 
+
+<section class="stats-section" id="stats"><div class="container"><div class="stats-grid"><div class="stat-box"><div class="stat-number">300<span>+</span></div><div class="stat-label">Happy Clients</div></div><div class="stat-box"><div class="stat-number">500<span>+</span></div><div class="stat-label">Projects Completed</div></div><div class="stat-box"><div class="stat-number">100<span>%</span></div><div class="stat-label">Client Satisfaction</div></div><div class="stat-box"><div class="stat-number">3<span>+</span></div><div class="stat-label">Years Experience</div></div></div></div></section>
 <section class="services" id="services">
 <div class="container">
 <div class="title">
@@ -258,6 +266,21 @@ footer strong { color:var(--gold); }
 </div>
 </section>
 
+
+<section class="schemes-section" id="schemes"><div class="container"><div class="title"><h2>CM &amp; PM <span>Schemes</span></h2><p>Application assistance and guidance for available Chief Minister Punjab and Prime Minister programmes.</p></div><div class="scheme-grid">
+<div class="scheme-card"><div class="icon">🏛️</div><h3>CM Punjab Schemes</h3><p>Application assistance for available Chief Minister Punjab initiatives and programmes.</p></div>
+<div class="scheme-card"><div class="icon">🌾</div><h3>CM Punjab Kissan Card</h3><p>Guidance and application assistance for the Kissan Card programme.</p></div>
+<div class="scheme-card"><div class="icon">🚜</div><h3>CM Punjab Green Tractor Program</h3><p>Application guidance for eligible tractor programme opportunities.</p></div>
+<div class="scheme-card"><div class="icon">⚙️</div><h3>CM Hi-Tech Farm Mechanization</h3><p>Guidance for available agricultural machinery programmes.</p></div>
+<div class="scheme-card"><div class="icon">☀️</div><h3>CM Punjab Solar Programs</h3><p>Assistance with available Punjab solar programme applications.</p></div>
+<div class="scheme-card"><div class="icon">🚲</div><h3>CM Punjab E-Bike Program</h3><p>Application assistance for eligible student e-bike programmes.</p></div>
+<div class="scheme-card"><div class="icon">🏠</div><h3>Apni Chhat Apna Ghar</h3><p>Application guidance for the Punjab housing programme.</p></div>
+<div class="scheme-card"><div class="icon">💳</div><h3>CM Punjab Rahmat Card</h3><p>Information and application guidance for the Rahmat Card programme.</p></div>
+<div class="scheme-card"><div class="icon">💰</div><h3>PM Youth Business &amp; Agriculture Loan</h3><p>Application assistance and guidance for the Prime Minister's Youth loan programme.</p></div>
+<div class="scheme-card"><div class="icon">💻</div><h3>PM Youth Laptop Scheme</h3><p>Guidance for eligible students applying through the Prime Minister's Youth Programme.</p></div>
+<div class="scheme-card"><div class="icon">📚</div><h3>PM Skill Development Program</h3><p>Application guidance for available youth skills and training opportunities.</p></div>
+<div class="scheme-card"><div class="icon">🏆</div><h3>PM Youth Programs &amp; Opportunities</h3><p>Guidance for available youth employment, innovation and other PM Youth opportunities.</p></div>
+</div><p class="scheme-note">Scheme availability, eligibility and application dates may change. Please contact AB Digital Solutions for the latest information before applying.</p></div></section>
 <section class="about" id="about">
 <div class="about-box">
     <h2>About <span>AB Digital Solutions</span></h2>
